@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-portofolio-pod
+  namespace: beta
+  labels:
+    app: my-portofolio
+spec:
+  containers:
+  - name: my-portofolio-pod-container
+    image: mfaizfatah/my-portofolio:beta
